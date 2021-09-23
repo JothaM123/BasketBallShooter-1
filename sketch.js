@@ -43,7 +43,7 @@ function draw(){
  var sprite = createSprite(width/2+425, height-height+268, 40, 20);
 sprite.visible = false;
  
- text("Use D and A to navigate", width-width+20, height-height+30);
+Swal.fire("Use D and A to navigate");
 
 
 noFill();
