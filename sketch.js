@@ -42,6 +42,8 @@ function draw(){
 
  var sprite = createSprite(width/2+425, height-height+268, 40, 20);
 sprite.visible = false;
+ 
+ text("Use D and A to navigate", width-width+20, height-height+30);
 
 
 noFill();
@@ -50,7 +52,7 @@ strokeWeight(5);
 stroke(0, 255, 0);
 rect(width/2+425, height-height+268, 70, 50);
  
-text("Use D and A to navigate", width-width+20, height-height+30);
+
 
 
  if(ball.collide(sprite)){
